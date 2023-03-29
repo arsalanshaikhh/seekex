@@ -10,21 +10,21 @@ const Sub = lazy(() => import("./comp/Sub"));
 function App() {
   return (
     <div className="App">
-      {/* <Suspense fallback={<h3>please wait...</h3>}>
-        <Navbar />
-      </Suspense> */}
-
       <Suspense fallback={<h3>please wait...</h3>}>
-        <Sub />
+        <Navbar />
       </Suspense>
 
       {/* <Suspense fallback={<h3>please wait...</h3>}>
+        <Sub />
+      </Suspense> */}
+
+      <Suspense fallback={<h3>please wait...</h3>}>
         <Footer />
       </Suspense>
 
       <Suspense fallback={<h3>please wait...</h3>}>
         <Footer2 />
-      </Suspense> */}
+      </Suspense>
     </div>
   );
 }
