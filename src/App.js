@@ -1,5 +1,7 @@
 import React, { Suspense, lazy } from "react";
 import "./App.css";
+import Text from "./comp/Text";
+import Pro from "./comp/Pro";
 // import Navbar from "./comp/Navbar";
 
 const Navbar = lazy(() => import("./comp/Navbar"));
@@ -30,7 +32,9 @@ function App() {
           <Box2 />
         </Suspense>
       </div>
+      <Text />
 
+      <Pro />
       {/* <Suspense fallback={<h3>please wait...</h3>}>
         <Sub />
       </Suspense> */}
