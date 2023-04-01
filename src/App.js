@@ -6,6 +6,9 @@ const Navbar = lazy(() => import("./comp/Navbar"));
 const Footer = lazy(() => import("./comp/Footer"));
 const Footer2 = lazy(() => import("./comp/Footer2"));
 const Sub = lazy(() => import("./comp/Sub"));
+const Ban = lazy(() => import("./comp/Ban"));
+const Box1main = lazy(() => import("./comp/Box1main"));
+const Box2 = lazy(() => import("./comp/Box2"));
 
 function App() {
   return (
@@ -13,6 +16,20 @@ function App() {
       <Suspense fallback={<h3>please wait...</h3>}>
         <Navbar />
       </Suspense>
+      <Suspense fallback={<h3>please wait...</h3>}>
+        <Ban />
+      </Suspense>
+      <div className="pad">
+        <Suspense fallback={<h3>please wait...</h3>}>
+          <Box1main />
+        </Suspense>
+      </div>
+
+      <div className="pad">
+        <Suspense fallback={<h3>please wait...</h3>}>
+          <Box2 />
+        </Suspense>
+      </div>
 
       {/* <Suspense fallback={<h3>please wait...</h3>}>
         <Sub />
