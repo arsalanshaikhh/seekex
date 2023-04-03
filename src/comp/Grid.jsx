@@ -22,7 +22,8 @@ export default function Grid() {
           position={"relative"}
           bg={"#06b8a6"}
           height="432px"
-          width={["100%", "100%", "360px"]}
+          // width={["100%", "100%", "360px"]}
+          width={"360px"}
         >
           <img src={img1} alt=""></img>
           <Flex

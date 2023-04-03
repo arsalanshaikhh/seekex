@@ -1,18 +1,9 @@
-import {
-  Box,
-  Button,
-  Center,
-  Divider,
-  Flex,
-  Img,
-  SimpleGrid,
-  Text,
-} from "@chakra-ui/react";
+import { Box, Center, Flex, Img, SimpleGrid, Text } from "@chakra-ui/react";
 import React from "react";
 import img from "../svg/bottombar/Vector.svg";
 export default function Bottombar() {
   return (
-    <Center bg={"#f5f4f2"}>
+    <Center bg={"#f5f4f2"} mb={"68px"}>
       <SimpleGrid columns={[2, 2, 4]} w={"80%"} h={"212px"}>
         <Box>
           {" "}
