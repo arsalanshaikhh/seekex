@@ -19,9 +19,10 @@ export default function Subscribe() {
         m={"auto"}
         align={"center"}
         justify={"space-evenly"}
-        w={"74%"}
-        h={"100%"}
+        w={["100%", "74%", "74%"]}
+        // h={"100%"}
         gap={"20px"}
+        padding={"68px"}
       >
         <Center className="para">
           Subscribe to get updates on exciting offers & deals

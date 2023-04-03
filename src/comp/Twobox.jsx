@@ -14,15 +14,14 @@ import img2 from "../svg/twobox/discount 1.svg";
 
 export default function Twobox() {
   return (
-    <Center m={"auto"} w={["100%", "74%", "74%"]}>
+    <Center m={"auto"} w={"100%"} mb={"68px"}>
       <SimpleGrid
         columns={[1, 1, 2]}
         spacing="24px"
-        w={"100%"}
+        w={["100%", "74%", "74%"]}
         m={"auto"}
-        mb={"68px"}
       >
-        <Box bg="#cccea7" height="652px">
+        <Box bg="#cccea7" w={"100%"} p={"5%"}>
           <Flex
             direction={"column"}
             //   gap="22px"
@@ -39,7 +38,7 @@ export default function Twobox() {
             <Button className="BtnBox">shop now</Button>
           </Flex>
         </Box>
-        <Box bg="#d6bebe" height="652px">
+        <Box bg="#d6bebe" w={"100%"} p={"5%"}>
           <Flex
             direction={"column"}
             //   gap="22px"

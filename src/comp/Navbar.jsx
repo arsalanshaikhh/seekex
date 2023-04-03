@@ -19,7 +19,7 @@ const Navbar = () => {
         // p={"0 12%"}
         justifyContent={"space-between"}
       >
-        <Flex w="15%" justify={"flex-start"}>
+        <Flex w="15%" justify={["center", "flex-start", "flex-start"]}>
           <img src={menu} />
         </Flex>
         <Box>
@@ -35,12 +35,19 @@ const Navbar = () => {
             </Text>
           </Center>
         </Box>
-        <Flex w="15%" justifyContent={"space-between"}>
-          <img src={menu1} />
-          <img src={menu2} />
-          <img src={menu3} />
-          <img src={menu4} />
-        </Flex>
+        <Box w="15%" display={["none", "block", "block"]}>
+          <Flex justifyContent={"space-between"}>
+            <img src={menu1} alt="" />
+            <img src={menu2} />
+            <img src={menu3} />
+            <img src={menu4} />
+          </Flex>
+        </Box>
+        <Box w={"15%"} display={["block", "none", "none"]}>
+          <Flex justify={"center"}>
+            <img src={menu} />
+          </Flex>
+        </Box>
       </Flex>
     </Center>
   );

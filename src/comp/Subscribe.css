@@ -20,7 +20,7 @@
   color: #ffffff;
   width: 60%;
   margin: auto;
-  margin-top: 5%;
+  /* margin-top: 5%; */
 }
 
 input {
@@ -35,7 +35,6 @@ input {
   line-height: 29px;
   text-align: center;
   color: #770015;
-
 }
 .BackG {
   background-color: #ffffff;

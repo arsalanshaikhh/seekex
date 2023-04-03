@@ -1,4 +1,4 @@
-import { Box, Button, Flex, Text } from "@chakra-ui/react";
+import { Box, Button, Center, Flex, Text } from "@chakra-ui/react";
 import React from "react";
 import img1 from "../svg/pro/Rectangle 3.svg";
 import img2 from "../svg/pro/Rectangle 4.svg";
@@ -11,14 +11,14 @@ import i3 from "../svg/icon/Vector (2).svg";
 export default function Pro(prop) {
   console.log(prop.src);
   return (
-    <Box m={"auto"} w={["100%", "74%", "74%"]} m={"auto"}>
+    <Center m={"auto"} w={["100%", "74%", "74%"]} mb={"48px"}>
       <Flex
         // w={"1120px"}
         w={"100%"}
-        justify={"space-between"}
+        justify={["center", "center", "space-between"]}
         m={"auto"}
         flexWrap={"wrap"}
-        mb={"48px"}
+        gap={["20px", "20px", "auto"]}
       >
         <Flex
           w={"264px"}
@@ -164,6 +164,6 @@ export default function Pro(prop) {
           </Flex>
         </Flex>
       </Flex>
-    </Box>
+    </Center>
   );
 }

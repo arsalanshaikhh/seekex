@@ -34,16 +34,16 @@ function App() {
         <Ban bann={bann} />
       </Suspense>
       {/* <div className="pad"> */}
-        <Suspense fallback={<h3>please wait...</h3>}>
-          <Box1main />
-        </Suspense>
+      <Suspense fallback={<h3>please wait...</h3>}>
+        <Box1main />
+      </Suspense>
       {/* </div> */}
 
-      <div className="pad">
-        <Suspense fallback={<h3>please wait...</h3>}>
-          <Box2 />
-        </Suspense>
-      </div>
+      {/* <div className="pad"> */}
+      <Suspense fallback={<h3>please wait...</h3>}>
+        <Box2 />
+      </Suspense>
+      {/* </div> */}
 
       <Suspense fallback={<h3>please wait...</h3>}>
         <Text pr={"Trending T-Shirts"} />
