@@ -13,7 +13,7 @@ export default function Grid() {
       <SimpleGrid
         columns={[1, 1, 3]}
         spacing="20px"
-        w={"1120px"}
+        w={"74%"}
         m={"auto"}
         mb={"68px"}
       >
@@ -22,10 +22,10 @@ export default function Grid() {
           position={"relative"}
           bg={"#06b8a6"}
           height="432px"
-          // width={["100%", "100%", "360px"]}
-          width={"360px"}
+          width={["100%", "100%", "100%"]}
+          // width={"360px"}
         >
-          <img src={img1} alt=""></img>
+          <img src={img1} alt="" style={{ margin: "auto" }}></img>
           <Flex
             justify={"center"}
             align={"center"}
@@ -55,9 +55,9 @@ export default function Grid() {
           position={"relative"}
           bg={"#80e8ff"}
           height="432px"
-          width={["100%", "100%", "360px"]}
+          width={["100%", "100%", "100%"]}
         >
-          <img src={img2} alt=""></img>
+          <img src={img2} alt="" style={{ margin: "auto" }}></img>
           <Flex
             justify={"center"}
             align={"center"}
@@ -87,9 +87,9 @@ export default function Grid() {
           position={"relative"}
           bg={"#dc493a"}
           height="432px"
-          width={["100%", "100%", "360px"]}
+          width={["100%", "100%", "100%"]}
         >
-          <img src={img3} alt=""></img>
+          <img src={img3} alt="" style={{ margin: "auto" }}></img>
           <Flex
             justify={"center"}
             align={"center"}
@@ -119,9 +119,9 @@ export default function Grid() {
           position={"relative"}
           bg={"#d7b2ff"}
           height="432px"
-          width={["100%", "100%", "360px"]}
+          width={["100%", "100%", "100%"]}
         >
-          <img src={img4} alt=""></img>
+          <img src={img4} alt="" style={{ margin: "auto" }}></img>
           <Flex
             justify={"center"}
             align={"center"}
@@ -151,9 +151,9 @@ export default function Grid() {
           position={"relative"}
           bg={"#f0bc8c"}
           height="432px"
-          width={["100%", "100%", "360px"]}
+          width={["100%", "100%", "100%"]}
         >
-          <img src={img5} alt=""></img>
+          <img src={img5} alt="" style={{ margin: "auto" }}></img>
           <Flex
             justify={"center"}
             align={"center"}
@@ -183,9 +183,9 @@ export default function Grid() {
           position={"relative"}
           bg={"#4392f1"}
           height="432px"
-          width={["100%", "100%", "360px"]}
+          width={["100%", "100%", "100%"]}
         >
-          <img src={img6} alt=""></img>
+          <img src={img6} alt="" style={{ margin: "auto" }}></img>
           <Flex
             justify={"center"}
             align={"center"}
