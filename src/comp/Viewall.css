@@ -1,0 +1,21 @@
+.BtnDiv {
+  width: 170px;
+  height: 48px;
+  margin: auto;
+  background: #770015;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 68px;
+}
+
+.BtnText {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  /* identical to box height */
+  text-transform: uppercase;
+  color: #ffffff;
+}

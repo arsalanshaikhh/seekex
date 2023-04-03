@@ -12,3 +12,5 @@ export default function Box1(prop) {
     </div>
   );
 }
+
+// w={["100%", "74%", "74%"]}

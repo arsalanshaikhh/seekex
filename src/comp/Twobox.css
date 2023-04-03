@@ -1,0 +1,29 @@
+* {
+  font-family: "Playfair Display";
+  color: #1c1c1c;
+}
+.FirstText {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 48px;
+}
+
+.SecondText {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 84px;
+  line-height: 112px;
+}
+.BtnBox {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  color: #ffffff;
+  border: 1px solid #ffffff;
+  text-transform: uppercase;
+  background-color: transparent;
+  border-radius: 0%;
+}

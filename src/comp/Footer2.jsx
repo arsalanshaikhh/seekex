@@ -79,7 +79,7 @@ export default function Footer2() {
       >
         {/* <Logo /> */}
         <div></div>
-        <Text>©2022-23 Powered By dummy team</Text>
+        <Text color="white">©2022-23 Powered By dummy team</Text>
         <Stack direction={"row"} spacing={6}>
           {/* <SocialButton label={"Twitter"} href={"#"}>
             <FaTwitter />

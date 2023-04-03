@@ -123,6 +123,7 @@ export default function Footer() {
               <SocialButton label={"Pinterest"} href={"#"}>
                 <FaPinterest />
               </SocialButton>
+              {/* <div></div> */}
             </Stack>
           </Stack>
           <Stack align={"flex-start"}>
@@ -143,10 +144,10 @@ export default function Footer() {
           </Stack>
           <Stack align={"flex-start"}>
             <ListHeader>CUSTOMER POLICIES</ListHeader>
-            <Link href={"#"}>Lorem Ipsum is simply dummy text of the </Link>
+            <Link href={"#"}>⟟ Lorem Ipsum is simply dummy text of the </Link>
             <Link href={"#"}> printing and typesetting industry.</Link>
-            <Link href={"#"}>Call Us: 1234567890</Link>
-            <Link href={"#"}>Email Us: info@yourmail.comy</Link>
+            <Link href={"#"}>✆ Call Us: 1234567890</Link>
+            <Link href={"#"}>✉ Email Us: info@yourmail.comy</Link>
           </Stack>
         </SimpleGrid>
       </Container>

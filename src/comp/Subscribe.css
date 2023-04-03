@@ -1,0 +1,42 @@
+.MainDiv {
+  /* background: linear-gradient(97.3deg, #ab001e -6.23%, #770015 105.09%); */
+  background-color: #770015;
+  width: 1120px;
+  height: 312px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 27px;
+  align-items: center;
+}
+.para {
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 48px;
+  text-align: center;
+  color: #ffffff;
+  width: 60%;
+  margin: auto;
+  margin-top: 5%;
+}
+
+input {
+  background: rgba(255, 255, 255, 0.32);
+  color: #ffffff;
+}
+.TextBtn {
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 29px;
+  text-align: center;
+  color: #770015;
+
+}
+.BackG {
+  background-color: #ffffff;
+}

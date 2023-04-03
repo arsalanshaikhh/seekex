@@ -10,34 +10,39 @@ import menu4 from "../svg/menu4.svg";
 
 const Navbar = () => {
   return (
-    <Flex
-      h={"60px"}
-      alignItems="center"
-      color="white"
-      p={"0 12%"}
-      justifyContent={"space-between"}
-    >
-      <Flex>
-        <img src={menu} />
+    <Center color="white" w={"100%"}>
+      <Flex
+        w={["100%", "74%", "74%"]}
+        h={"60px"}
+        alignItems="center"
+        color="white"
+        // p={"0 12%"}
+        justifyContent={"space-between"}
+      >
+        <Flex w="15%" justify={"flex-start"}>
+          <img src={menu} />
+        </Flex>
+        <Box>
+          <Center>
+            <Text
+              color={" #1C1C1C"}
+              fontSize={"16px"}
+              fontWeight="600"
+              lineHeight={"21px"}
+              fontFamily={"Playfair Display"}
+            >
+              Logo Here
+            </Text>
+          </Center>
+        </Box>
+        <Flex w="15%" justifyContent={"space-between"}>
+          <img src={menu1} />
+          <img src={menu2} />
+          <img src={menu3} />
+          <img src={menu4} />
+        </Flex>
       </Flex>
-      <Box>
-        <Text
-          color={" #1C1C1C"}
-          fontSize={"16px"}
-          fontWeight="600"
-          lineHeight={"21px"}
-          fontFamily={"Playfair Display"}
-        >
-          Logo Here
-        </Text>
-      </Box>
-      <Flex w="17%" justifyContent={"space-evenly"}>
-        <img src={menu1} />
-        <img src={menu2} />
-        <img src={menu3} />
-        <img src={menu4} />
-      </Flex>
-    </Flex>
+    </Center>
   );
 };
 
