@@ -24,7 +24,7 @@ export default function Twobox() {
         <Box bg="#cccea7" w={"100%"} p={"5%"}>
           <Flex
             direction={"column"}
-            //   gap="22px"
+            gap="20px"
             m={"auto"}
             align={"center"}
             justify={"space-evenly"}
@@ -41,7 +41,7 @@ export default function Twobox() {
         <Box bg="#d6bebe" w={"100%"} p={"5%"}>
           <Flex
             direction={"column"}
-            //   gap="22px"
+            gap="20px"
             m={"auto"}
             align={"center"}
             justify={"space-evenly"}

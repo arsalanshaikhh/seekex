@@ -80,7 +80,7 @@ function App() {
       {/* ............................................. */}
 
       <Center mb={"68px"}>
-        <Divider orientation="horizontal" />{" "}
+        <Divider orientation="horizontal" borderColor={"red"} />{" "}
       </Center>
 
       {/* .....................Footer........................ */}

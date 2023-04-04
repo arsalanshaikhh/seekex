@@ -7,8 +7,6 @@ import {
   Stack,
   Text,
   VisuallyHidden,
-  Input,
-  IconButton,
   useColorModeValue,
 } from "@chakra-ui/react";
 import { ReactNode } from "react";
@@ -20,7 +18,6 @@ import {
   FaTwitter,
   FaYoutube,
 } from "react-icons/fa";
-import { BiMailSend } from "react-icons/bi";
 
 const Logo = (props: any) => {
   return (
@@ -46,17 +43,21 @@ const SocialButton = ({
   children,
   label,
   href,
+  cc,
 }: {
   children: ReactNode,
   label: string,
   href: string,
+  cc: string,
 }) => {
   return (
     <chakra.button
-      bg={useColorModeValue("blackAlpha.100", "whiteAlpha.100")}
+      // bg={useColorModeValue("blackAlpha.100", "whiteAlpha.100")}
+      // color={"whiteAlpha.400"}
+      bg={cc}
       rounded={"full"}
-      w={8}
-      h={8}
+      w={9}
+      h={9}
       cursor={"pointer"}
       as={"a"}
       href={href}
@@ -76,7 +77,13 @@ const SocialButton = ({
 
 const ListHeader = ({ children }: { children: ReactNode }) => {
   return (
-    <Text fontWeight={"500"} fontSize={"lg"} mb={2}>
+    <Text
+      fontWeight={"600"}
+      fontFamily={"Playfair Display"}
+      fontSize={"16px"}
+      mb={2}
+      color={"#770015"}
+    >
       {children}
     </Text>
   );
@@ -104,23 +111,49 @@ export default function Footer() {
               type and scrambled it to make a type specimen book. It has
               survived not only five centuries....
             </Text>
-            <Stack direction={"row"} spacing={6}>
-              <SocialButton label={"Facebook"} href={"#"}>
+            <Stack direction={"row"} spacing={4}>
+              <SocialButton
+                label={"Facebook"}
+                href={"https://www.facebook.com/"}
+                cc={"#1077f0"}
+              >
                 <FaFacebook />
               </SocialButton>
-              <SocialButton label={"Twitter"} href={"#"}>
+              <SocialButton
+                label={"Twitter"}
+                href={"https://twitter.com/"}
+                cc={"#229AEF"}
+              >
                 <FaTwitter />
               </SocialButton>
-              <SocialButton label={"YouTube"} href={"#"}>
+              <SocialButton
+                label={"YouTube"}
+                href={"https://www.youtube.com/"}
+                cc={"#f50107"}
+              >
                 <FaYoutube />
               </SocialButton>
-              <SocialButton label={"Instagram"} href={"#"}>
+              <SocialButton
+                label={"Instagram"}
+                href={"https://www.instagram.com/"}
+                cc={
+                  "linear-gradient(38.41deg, #FFDB70 6.14%, #F3278E 48.98%, #5351D7 96.99%)"
+                }
+              >
                 <FaInstagram />
               </SocialButton>
-              <SocialButton label={"Linkedin"} href={"#"}>
+              <SocialButton
+                label={"Linkedin"}
+                href={"https://www.linkedin.com/"}
+                cc={"#2B67B3"}
+              >
                 <FaLinkedin />
               </SocialButton>
-              <SocialButton label={"Pinterest"} href={"#"}>
+              <SocialButton
+                label={"Pinterest"}
+                href={"https://in.pinterest.com/"}
+                cc={"#E60022"}
+              >
                 <FaPinterest />
               </SocialButton>
               {/* <div></div> */}
