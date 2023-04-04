@@ -38,10 +38,12 @@ export default function Box1main() {
     },
   ];
   return (
-    <Center m={"auto"} w={["100%", "74%", "74%"]} className="box1MainMain">
-      {arr.map((e) => {
-        return <Box1 src={e.img} leb={e.leb} />;
-      })}
+    <Center m={"auto"} w={"100%"}>
+      <Center m={"auto"} w={["100%", "74%", "74%"]} className="box1MainMain">
+        {arr.map((e) => {
+          return <Box1 src={e.img} leb={e.leb} />;
+        })}
+      </Center>
     </Center>
   );
 }
